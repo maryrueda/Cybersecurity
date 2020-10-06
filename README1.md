@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-https://github.com/maryrueda/Cybersecurity/blob/main/azure_network.PNG
+![](Diagrams/azure_network.PNG)
 
 This document contains the following details:
 - Description of the Topology 
