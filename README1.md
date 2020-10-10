@@ -127,9 +127,9 @@ SSH into the control node and follow the steps below:
 - Update the hosts file to include the follwoing information:
 
 Web Servers 
- 10.0.0.5 ansible_python_interpreter=/usr/bin/python3
- 10.0.0.6 ansible_python_interpreter=/usr/bin/python3
- 10.0.0.7 ansible_python_interpreter=/usr/bin/python3
+ 1. 10.0.0.5 ansible_python_interpreter=/usr/bin/python3
+ 2. 10.0.0.6 ansible_python_interpreter=/usr/bin/python3
+ 3. 10.0.0.7 ansible_python_interpreter=/usr/bin/python3
 
 ELK Server 
 10.1.0.4 ansible_python_interpreter=/usr/bin/python3
