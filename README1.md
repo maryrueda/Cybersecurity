@@ -118,7 +118,7 @@ Metricbeat is installed to assist in monitoring the health of each client. This 
 
 The Ansible Playbooks can be found here:
 
--Filebeats:
+-Filebeats:  https://github.com/maryrueda/Cybersecurity/blob/main/Ansible/filebeat-playbook.txt
 -Metricbeats:
 
 ### Using the Playbook
