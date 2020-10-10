@@ -124,7 +124,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the yml file to /etc/ansible directory. 
 
-- Update the hosts file to include the follwoing information:
+- Update the hosts file to include the following information:
 
 Web Servers 
  1. 10.0.0.5 ansible_python_interpreter=/usr/bin/python3
@@ -135,10 +135,10 @@ ELK Server
 10.1.0.4 ansible_python_interpreter=/usr/bin/python3
 
 Once the hosts file is updated, run the following commands to install filebeat and metricbeat:
-$ cd /etc/ansible
-$ ansible-playbook install_elk.yml 
-$ ansible-playbook install_filebeat.yml
-$ ansible-playbook install_metricbeat.yml 
+1. $ cd /etc/ansible
+2. $ ansible-playbook install_elk.yml 
+3. $ ansible-playbook install_filebeat.yml
+4. $ ansible-playbook install_metricbeat.yml 
 
 
 - Open up a browser and navigate to http://[ELK VM IP]:/app/kibana. See image below displaying successful connection to Kibana. 
