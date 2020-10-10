@@ -88,8 +88,6 @@ The Ansible playbook tells Ansible what to do and in this case implements the fo
 3. Ansible playbook downloaded and launched the ELK stack container on the server and the Beats" containers on each respective web server. 
 The playbook also published the needed ports for the ELK stack:56:01:56:01, 9200:9200, 5044:5044. 
 
-- ...
-
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
 ![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
