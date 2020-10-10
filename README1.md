@@ -92,7 +92,7 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
 
-ELK Playbook used can be found here: 
+ELK Playbook used can be found here: https://github.com/maryrueda/Cybersecurity/blob/main/Ansible/ELKVM.txt
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
