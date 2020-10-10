@@ -116,7 +116,10 @@ Filebeat will monitor the client log files or any location that is specified in 
 
 Metricbeat is installed to assist in monitoring the health of each client. This beat collects data pertaining to the operating system and also from services running on the server such as CPU usage. The metrics are real-time and viewable in Kibana.
 
-The Ansible Playbooks can be found here. __________________________________
+The Ansible Playbooks can be found here:
+
+-Filebeats:
+-Metricbeats:
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
