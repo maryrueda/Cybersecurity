@@ -114,7 +114,7 @@ These Beats allow us to collect the following information from each machine:
 As mentioned previously, "Filebeat is a log shipper belonging to the Beats family- a group of lighweight shippers installed on hosts for shipping different kinds of data into the ELK stack for analysis. Each beat is dedicated to shipping different types of information." https://logz.io/blog/filebeat-tutorial/
 Filebeat will monitor the client log files or any location that is specified in the configuration. The beat collects the log events and will forward the events for further analysis. Filebeat is the most popular and commonly used member of the ELK stack as it collects data related to the file system and monitors for suspicious changes. 
 
-- Metricbeat is installed to assist in monitoring the health of each client. This beat collects data pertaining to the operating system and also from services running on the server such as CPU usage. The metrics are real-time and viewable in Kibana.
+Metricbeat is installed to assist in monitoring the health of each client. This beat collects data pertaining to the operating system and also from services running on the server such as CPU usage. The metrics are real-time and viewable in Kibana.
 
 The Ansible Playbooks can be found here. __________________________________
 
